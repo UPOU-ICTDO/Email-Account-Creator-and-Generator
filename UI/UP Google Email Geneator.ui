@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1047</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1047</width>
+    <height>726</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1047</width>
+    <height>726</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>UP Google Email Generator</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#title{
+	background-color: #860f0f;
+	color: white;
+	padding-bottom: 10px;
+}
+
+QPushButton{
+	background-color: #1f8a50;
+	border: none;
+	border-radius: 38px;
+	color: white;
+}
+
+QPushButton:hover{
+	background-color: #1f6450;
+	border: none;
+	border-radius: 38px;
+	color: white;
+}
+
+QPushButton:pressed{
+	background-color: #1f4e3a;
+	border: none;
+	border-radius: 38px;
+	color: white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1047</width>
+      <height>223</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1047</width>
+      <height>223</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1047</width>
+      <height>223</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>UP Google Email Generator</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>-20</y>
+      <width>206</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>206</width>
+      <height>211</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>OU LOGO.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="importUserBtn">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>240</y>
+      <width>341</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>384</width>
+      <height>90</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Import Existing User</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="createAccBtn">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>350</y>
+      <width>341</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>384</width>
+      <height>90</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Create New Accounts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewAccBtn">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>460</y>
+      <width>341</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>384</width>
+      <height>90</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>View Created Accounts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendEmailBtn">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>570</y>
+      <width>341</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>384</width>
+      <height>90</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Send Email</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
